@@ -61,22 +61,26 @@ a:visited{
 }
 
 /*---------------------------------- wishlist ----------------------------------*/
-.wishlist_content{
+.faves_content{
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(1, 1fr);
 }
-.wishlist_content {
-    border: 2px solid #f76707;
+.faves_content {
+    /* border: 2px solid #f76707; */
     border-radius: 5px;
-    background-color: #fff4e6;
+    /* background-color: #fff4e6; */
   }
   
-  .wishlist_content > div {
-    border: 2px solid #ffa94d;
-    border-radius: 5px;
-    background-color: #ffd8a8;
+  /* only for the divs within faves_content class */
+.faves_content > div {
+    text-align: center;
+    border: 2px solid #8cb04e;
+    border-radius: 3px;
+    /* background-color: ; */
     padding: 1em;
-    color: #d9480f;
-  }
-  
+    color: #0b0805;
+    font: 20px Courier;
+}
+
+  /*---------------------------------- faves ----------------------------------*/
