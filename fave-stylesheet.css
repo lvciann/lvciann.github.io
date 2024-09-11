@@ -1,0 +1,74 @@
+/* css for favorites.html*/
+/* each page should have their own css! */
+
+body{
+    background-color: #fff8e7;
+}
+
+.header-main{
+    width: 100%;
+    height: 60px;
+    /*background-color: #120a4f;*/
+    background-color: #fff8e7;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header-main div{
+    height: 30px;
+}
+
+.header-main .d1{
+    width: 100px;
+    font-size: x-large;
+    border-style: solid;
+    border-color: #992800;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.header-main .d2{
+    width: 100px;
+    font-size: x-large;
+    border-style: solid;
+    border-color: #992800;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.header-main .d3{
+    width: 100px;
+    font-size: x-large;
+    border-style: solid;
+    border-color: #992800;
+    border-radius: 50px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #120a4f;
+}
+
+.main-border{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-border div{
+    height: 60px;
+}
+
+.main-border .fave1{
+    width: 500px;
+    height: 30px;
+    font-size: x-large;
+    border-style: solid;
+    border-color: #ffaf00;
+    border-radius: 50px;
+    text-align: center;
+}
