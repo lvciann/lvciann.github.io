@@ -1,0 +1,25 @@
+/* css for about.html*/
+/* each page should have their own css! */
+
+
+body{
+    background-color: #fff8e7;
+
+}
+
+
+
+.errorMsg{
+    text-align: center;
+    /*background-color: #120a4f;*/
+    background-color: #fff8e7;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    height: 700px;
+}
